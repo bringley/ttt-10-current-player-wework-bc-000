@@ -8,6 +8,7 @@ def turn_count(board)
       spaces_taken += 1 
     end
   end
+  return spaces_taken
 end
 
 def current_player(board)
